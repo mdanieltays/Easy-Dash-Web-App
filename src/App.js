@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
+import * from 'react-mdl';
 
 class App extends Component {
   render() {
@@ -13,6 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>Edited.</h1>
       </div>
     );
   }
